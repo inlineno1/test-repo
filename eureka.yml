@@ -7,8 +7,8 @@ spring:
   profiles: development
 
 eureka:
-  instance:
-    prefer-ip-address: true
+#  instance:
+#   prefer-ip-address: true
   client:
     register-with-eureka: false
     fetch-registry: false
