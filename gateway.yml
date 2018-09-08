@@ -16,7 +16,7 @@ zuul:
     user-service:
       path: /api/user/**
     todo-service:
-      url: http://localhost:8082/
+      url: http://10.1.1.73:8082/
       path: /api/todo/**
 
 ---
