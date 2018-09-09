@@ -5,6 +5,11 @@ spring:
 ---
 spring:
   profiles: development
+  rabbitmq:
+    host: 172.31.25.252
+    port: 5672
+    username: guest
+    password: guest
    
 eureka:
   client:
