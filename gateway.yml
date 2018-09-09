@@ -9,7 +9,7 @@ spring:
 eureka:
   client:
     serviceUrl:
-      defaultZone: http://localhost:${EUREKA_SERVER_PORT:8761}/eureka/
+      defaultZone: http://172.31.22.222:8761/eureka/
     
 zuul:
   routes:
@@ -25,8 +25,8 @@ spring:
 eureka:
   client:
     serviceUrl:
-      defaultZone: http://localhost:${EUREKA_SERVER_PORT:8761}/eureka/  
-
+      defaultZone: http://172.31.22.222:8761/eureka/
+      
 zuul:
   routes:
     user-service:
