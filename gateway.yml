@@ -19,8 +19,10 @@ eureka:
 zuul:
   routes:
     user-service:
+      service-id: user-service 
       path: /api/user/**
     todo-service:
+      service-id: todo-service
       path: /api/todo/**
 
 ---
