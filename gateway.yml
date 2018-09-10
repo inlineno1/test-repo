@@ -25,9 +25,10 @@ zuul:
       service-id: todo-service
       path: /api/todo/**
 
-ribbon:
-  eureka:
-    enabled: true
+zuul:
+  ribbon:
+    eager-load:
+      enabled: true
 
 ---
 spring:
