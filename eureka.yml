@@ -7,6 +7,8 @@ spring:
   profiles: development
 
 eureka:
+  client:
+    region: abc
   instance:
     prefer-ip-address: true
   client:
