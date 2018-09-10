@@ -12,13 +12,9 @@ spring:
     password: guest
    
 eureka:
-  instance:
-    prefer-ip-address: true
   client:
-    register-with-eureka: false
-    fetch-registry: false      
-  serviceUrl:
-    defaultZone: http://10.1.1.127:8761/eureka/    
+    serviceUrl:
+      defaultZone: http://10.1.1.127:8761/eureka/    
       
 zuul:
   routes:
