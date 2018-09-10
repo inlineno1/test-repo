@@ -25,13 +25,9 @@ zuul:
       service-id: todo-service
       path: /api/todo/**
       
-todo-service:
-  ribbon:
-    NIWSServerListClassName: com.netflix.loadbalancer.ConfigurationBasedServerList
-    ConnectTimeout: 1000
-    ReadTimeout: 3000
-    MaxTotalHttpConnections: 500
-    MaxConnectionsPerHost: 100      
+ribbon:
+  eureka:
+    enabled: false  
 
 ---
 spring:
