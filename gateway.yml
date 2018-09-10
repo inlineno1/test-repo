@@ -25,6 +25,10 @@ zuul:
       service-id: todo-service
       path: /api/todo/**
 
+ribbon:
+  eureka:
+    enabled: true
+
 ---
 spring:
   profiles: vm
