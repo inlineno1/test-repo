@@ -24,8 +24,6 @@ zuul:
     todo-service:
       service-id: todo-service
       path: /api/todo/**
-
-zuul:
   ribbon:
     eager-load:
       enabled: true
